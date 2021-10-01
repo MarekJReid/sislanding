@@ -13,7 +13,8 @@ import {
   StudyOptions,
   StudentsWork,
   EnrolOnline,
-  MentorEducation
+  MentorEducation,
+  Reviews
 } from "../../components"
 import CourseGuide from "../../components/Forms/CourseGuide/CourseGuide"
 import DownloadFree from "../../components/Forms/DownloadFree"
@@ -42,6 +43,7 @@ const CourseTemplate = () => {
           <EnrolOnline />
           <EnrolOnline virtual />
           <EnrolOnline support />
+          <Reviews />
         </SideBar>
       </MainContainer>
       <MainContainer>
