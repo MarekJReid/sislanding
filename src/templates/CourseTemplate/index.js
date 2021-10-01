@@ -12,10 +12,11 @@ import {
   FreeConsultBanner,
   StudyOptions,
   StudentsWork,
-  EnrolNow,
+  EnrolOnline,
   MentorEducation
 } from "../../components"
 import CourseGuide from "../../components/Forms/CourseGuide/CourseGuide"
+import DownloadFree from "../../components/Forms/DownloadFree"
 import { Container } from "../../styles/ContainerStyles.css"
 import { Headline, Paragraph } from "../../styles/Typography.css"
 
@@ -34,10 +35,13 @@ const CourseTemplate = () => {
           <FreeConsultBanner />
           <StudyOptions />
           <MentorEducation />
+          <DownloadFree course/>
         </CourseContainer>
         <SideBar>
           <CourseGuide course imgContained />
-          <EnrolNow />
+          <EnrolOnline />
+          <EnrolOnline virtual />
+          <EnrolOnline support />
         </SideBar>
       </MainContainer>
       <MainContainer>
